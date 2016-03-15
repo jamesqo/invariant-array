@@ -1,0 +1,22 @@
+{
+    "version": "1.10.0",
+    "title": "Invariant.Array",
+    "description": "Provides an InvariantArray<T> data structure to bypass covariant type checks by the CLR.",
+    "authors": [ "James Ko" ],
+    "tags": [ "invariant", "array" ],
+    "projectUrl": "https://github.com/jamesqo/invariant-array",
+    "licenseUrl": "https://github.com/jamesqo/invariant-array/blob/master/LICENSE",
+
+    "frameworks": {
+        "dotnet": {
+            "dependencies": {
+                "System.Runtime": "4.0.0"
+            }
+        },
+        ".NETPortable,Version=v4.0,Profile=Profile328": {
+            "frameworkAssemblies": {
+                "mscorlib": { "type": "build" }
+            }
+        }
+    }
+}
